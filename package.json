@@ -1,7 +1,7 @@
 {
-  "name": "@kaspa/grpc-node",
+  "name": "@karlsen/grpc-node",
   "version": "1.0.8",
-  "description": "Node gRPC for kaspa-wallet",
+  "description": "Node gRPC for karlsen-wallet",
   "main": "dist/index.js",
   "author": "ASPECTRON Inc.",
   "license": "ISC",
@@ -10,7 +10,7 @@
     "prepublishOnly": "rm -rf ./dist && rm -f package-lock.json && npm install --also=dev && tsc"
   },
   "dependencies": {
-    "@kaspa/grpc": ">=1.4.0"
+    "@karlsen/grpc": "file:../node-karlsen-grpc"
   },
   "devDependencies": {
     "@types/node": "^14.14.9",

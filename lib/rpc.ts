@@ -1,4 +1,4 @@
-import {Client} from '@kaspa/grpc';
+import {Client} from '@karlsen/grpc';
 import {IRPC, RPC as Rpc} from '../types/custom-types';
 
 export {Client};
