@@ -1,6 +1,6 @@
 {
   "name": "@karlsen/grpc-node",
-  "version": "1.0.8",
+  "version": "1.0.9",
   "description": "Node gRPC for karlsen-wallet",
   "main": "dist/index.js",
   "authors": [
