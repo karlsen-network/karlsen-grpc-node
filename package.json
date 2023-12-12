@@ -1,16 +1,23 @@
 {
   "name": "@karlsen/grpc-node",
-  "version": "1.0.8",
+  "version": "1.0.9",
   "description": "Node gRPC for karlsen-wallet",
   "main": "dist/index.js",
-  "author": "ASPECTRON Inc.",
+  "authors": [
+    {
+      "name": "ASPECTRON Inc."
+    },
+    {
+      "name": "Karlsen Developers"
+    }
+  ],
   "license": "ISC",
   "scripts": {
     "watch": "tsc --watch",
     "prepublishOnly": "rm -rf ./dist && rm -f package-lock.json && npm install --also=dev && tsc"
   },
   "dependencies": {
-    "@karlsen/grpc": "file:../node-karlsen-grpc"
+    "@karlsen/grpc": ">=1.4.0"
   },
   "devDependencies": {
     "@types/node": "^14.14.9",
